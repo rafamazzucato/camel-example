@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+fiap:
+  api:
+    path: /camel
+
+camel:
+  springboot:
+    name: CamelExample
+
+management:
+    port: 8081
+
+endpoints:
+  enabled: true
+  health:
+    enabled: true
+
+quickstart:
+  generatedOrderPeriod: 10s
+  processOrderPeriod: 30s
