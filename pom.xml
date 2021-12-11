@@ -8,11 +8,11 @@
 		<version>2.5.8-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap.42scj</groupId>
+	<groupId>br.com.fiap.dataintegration</groupId>
 	<artifactId>camel-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>camel-example</name>
-	<description>Exercício de Apache Camel da aula de Data Integration 02</description>
+	<description>Demo project to apache Camel</description>
 	<properties>
 		<java.version>11</java.version>
 		<camel.version>2.18.0</camel.version>
@@ -22,19 +22,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-servlet-starter</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-jackson-starter</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-swagger-java-starter</artifactId>
@@ -57,7 +54,6 @@
 		</plugins>
 	</build>
 	<repositories>
-
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
